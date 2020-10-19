@@ -1,0 +1,136 @@
+{
+    "graph": {
+        "directed": false,
+        "type": "test graph",
+        "label": "simple",
+        "metadata": {
+            "user-defined": "values"
+        },
+        "nodes": {
+            "0": {
+                "type": "node type",
+                "label": "0",
+                "metadata": {
+                    "user-defined": "values"
+                }
+            },
+            "1": {
+                "type": "node type",
+                "label": "1",
+                "metadata": {
+                    "user-defined": "values"
+                }
+            },
+            "2": {
+                "type": "node type",
+                "label": "2",
+                "metadata": {
+                    "user-defined": "values"
+                }
+            },
+            "3": {
+                "type": "node type",
+                "label": "3",
+                "metadata": {
+                    "user-defined": "values"
+                }
+            },
+            "4": {
+                "type": "node type",
+                "label": "4",
+                "metadata": {
+                    "user-defined": "values"
+                }
+            },
+            "5": {
+                "type": "node type",
+                "label": "5",
+                "metadata": {
+                    "user-defined": "values"
+                }
+            }
+        },
+        "edges": [
+            {
+                "source": "0",
+                "relation": "edge relationship",
+                "target": "1",
+                "directed": false,
+                "label": "e0",
+                "metadata": {
+                    "user-defined": "values"
+                }
+            },
+            {
+                "source": "1",
+                "relation": "edge relationship",
+                "target": "3",
+                "directed": false,
+                "label": "e1",
+                "metadata": {
+                    "user-defined": "values"
+                }
+            },
+            {
+                "source": "0",
+                "relation": "edge relationship",
+                "target": "3",
+                "directed": false,
+                "label": "e2",
+                "metadata": {
+                    "user-defined": "values"
+                }
+            },
+            {
+                "source": "0",
+                "relation": "edge relationship",
+                "target": "4",
+                "directed": false,
+                "label": "e3",
+                "metadata": {
+                    "user-defined": "values"
+                }
+            },
+            {
+                "source": "1",
+                "relation": "edge relationship",
+                "target": "4",
+                "directed": false,
+                "label": "e4",
+                "metadata": {
+                    "user-defined": "values"
+                }
+            },
+            {
+                "source": "2",
+                "relation": "edge relationship",
+                "target": "5",
+                "directed": false,
+                "label": "e5",
+                "metadata": {
+                    "user-defined": "values"
+                }
+            },
+            {
+                "source": "3",
+                "relation": "edge relationship",
+                "target": "4",
+                "directed": false,
+                "label": "e6",
+                "metadata": {
+                    "user-defined": "values"
+                }
+            },
+            {
+                "source": "5",
+                "relation": "edge relationship",
+                "target": "4",
+                "directed": false,
+                "label": "e7",
+                "metadata": {
+                    "user-defined": "values"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+* How to build container
+docker build -t graph .
+
+* How to run dev/prod container
+docker run -v "$PWD":/usr/src/graph --privileged -it --rm --name graph graph
+or
+docker run -v "$PWD":/usr/src/graph --privileged -id --rm --name graph graph
+
+* How to compile and clean
+docker exec graph boot.sh
+docker exec graph make 
+docker exec graph make clean
+
+* How to run?
+./main "expression"
+or from the host
+docker exec graph main "(patsubst %.c,%.o,x.c.c bar.c)"
+
+* NEXT TODO:
+   - verify exactly 1 expression has been provided in main
+   - implement the syntax checker
+
+* How to run tests?
+

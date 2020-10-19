@@ -1,0 +1,9 @@
+m4_define([TEST_CHECK_TRACE_MAXIMAL_PATH],
+          [AT_BANNER([trace maximal path simple unit tests])
+           AT_SETUP([execute trace maximal path simple graph])
+           AT_CHECK([alg "trace_maximal_path" "simple_graph"],
+                    [ignore],
+                    [])
+           AT_CLEANUP])
+
+TEST_CHECK_TRACE_MAXIMAL_PATH
